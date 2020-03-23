@@ -9,7 +9,8 @@
 ****
 python write_tfrecord.py 将会在dataset下面生成对应的训练tfrecord文件  
 运行 python train.py 进行训练  
-tensorboard --logdir=logs 查看损失函数的变化
+tensorboard --logdir=logs 查看损失函数的变化  
+![Image text](./readme_images/loss.png)  
 ****
 预测：（存在问题，预测不准确）  
 运行 python predict.py 进行预测  
