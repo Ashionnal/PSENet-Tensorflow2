@@ -6,7 +6,6 @@ import tensorflow as tf
 import time
 import math
 import os
-from loss1 import calcute_loss
 import datetime
 
 
