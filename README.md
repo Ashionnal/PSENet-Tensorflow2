@@ -14,3 +14,4 @@ tensorboard --logdir=logs 查看损失函数的变化
 ****
 预测：（存在问题，预测不准确）  
 运行 python predict.py 进行预测  
+![Image text](./readme_images/predict.png)  
