@@ -5,7 +5,8 @@
 
 本人尝试使用tensorlfow2实现PSENET的模型，此处参考了 https://github.com/looput/PSENet-Tensorflow 的实现  
 中途需要用到tfrecord，我这边将需要的训练数据集放到网盘上了 ，有需要的可以下载直接训练，也可以自己生成数据集  
-百度网盘 链接: https://pan.baidu.com/s/1g_LWfbUhMDZSsBydadUY6w 提取码: yn18 复制这段内容后打开百度网盘手机App，操作更方便哦  
+****
+百度网盘 链接: https://pan.baidu.com/s/1g_LWfbUhMDZSsBydadUY6w 提取码: yn18,里面有model文件夹，里面的模型是我训练了10Wstep左右的模型，还有一个tferecord是训练数据集  
 所有的配置文件在config中，需要的同学自己对应修改下  
 ****
 python write_tfrecord.py 将会在dataset下面生成对应的训练tfrecord文件  
